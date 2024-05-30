@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+header{
+width: 100%;
+display: flex;
+align-items:flex-start;
+justify-content: center;
+}
+body{
+    background-image:url(img/1612274447_7-p-krasivii-goluboi-ili-fioletovii-fon-8.jpg);
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 30px;
+}
+.minephoto{
+    width: 30%;
+    height: 30%;
+    border-radius: 10px
+}
+.minephoto1{
+    width: 60%;
+    height: 60%;
+    border-radius: 10px;
+}
+.ll{
+    display: flex;
+    justify-content: center;
+}
+.mcraft{
+    color: greenyellow  ;
+    
+    
+    
+}
+.terra{
+    color:yellow;
+}
+.terra1{
+    width: 45%;
+    height: 45%;
+    border-radius: 10px
+    
+}
+.terra2{
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+}
+.zambaka{
+    margin-top: 80px;
+}
+.bum{
+    color:red;
+}
+.robax{
+    color:white;
+}
+.zombya{
+    color: green;
+}
+.glav{
+    text-decoration: none;
+    color:	#262222;
+    display: flex;
+    width: 100%;
+}
+.big{
+    animation: heartbeat 1s infinite;
+    margin-left: 40px;
+}
+footer{
+    background-color: purple;
+    
+}
+@keyframes heartbeat {
+	0%{
+		transform: scale(1);
+	}
+	17%{
+		transform: scale(1.25);
+	}
+	34%{
+		transform: scale(1.4);
+	}
+	50%{
+		transform: scale(1.6);
+	}
+	67%{
+		transform: scale(1.4);
+	}
+	84%{
+		transform: scale(1.25);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
